@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Audio Recorder</string>
+
+    <string-array name="sample_rate_text">
+        <item>48 kHz</item>
+        <item>44.1 kHz (CD)</item>
+        <item>32 kHz</item>
+        <item>22 kHz</item>
+        <item>16 kHz (lehenetsia)</item>
+        <item>11 kHz</item>
+        <item>8 kHz (telefonoa)</item>
+    </string-array>
+
+    <string-array name="source_text">
+        <item>Mikrofonoa</item>
+        <item>Prozesatu gabea</item>
+        <item>Bluetooth</item>
+        <item>Internal Audio</item>
+    </string-array>
+
+    <string-array name="channels_text">
+        <item>Mono (lehenetsia)</item>
+        <item>Estereo</item>
+    </string-array>
+
+    <string name="no_folder_app">Ez dago karpeta ikusteko aplikaziorik instalatuta</string>
+    <string name="hold_by_call">pausatu (deia hartzeko)</string>
+    <string name="recording_status_recording">grabatzen</string>
+    <string name="recording_status_encoding">kodetzen</string>
+    <string name="recording_status_pause">pausatu</string>
+    <string name="recording_status_edit">editatu</string>
+    <string name="confirm_cancel">Berretsi ezeztatzea</string>
+    <string name="encoding_title">Kodetzen...</string>
+    <string name="pause_title">Pausatu...</string>
+    <string name="recording_title">Grabatzen</string>
+    <string name="open_recording_folder">Ireki grabaketen karpeta</string>
+    <string name="recording_list_is_empty">Grabaketen zerrenda hutsik dago\n\nEgin klik Grabatu botoian grabaketa bat hasteko</string>
+    <string name="record_button">Grabatu</string>
+    <string name="cut_button">Moztu</string>
+    <string name="stop_button">Gelditu</string>
+    <string name="cancel_button">Utzi</string>
+    <string name="pause_button">Pausatu</string>
+
+    <string name="pref_storage_title">Grabaketen karpeta</string>
+    <string name="pref_rate_title">Lagin-tasa</string>
+    <string name="pref_encoding_title">Kodetzen</string>
+    <string name="pref_encoding_summary">Irteerako fitxategi-formatuak (.wav, .m4a, ...)</string>
+    <string name="pref_mode_title">Audio kanalak</string>
+    <string name="pref_mode_summary">Grabaketa kanalak</string>
+    <string name="pref_nameformat_title">Fitxategi-izenaren formatua</string>
+    <string name="pref_pausecalls_title">Pausatu deiak iraun bitartean</string>
+    <string name="pref_pausecalls_summary">Deia erantzutean grabatzeari utzi eta esekitzean jarraitu</string>
+    <string name="pref_silence_title">Modu isila</string>
+    <string name="pref_silence_summary">Gaitu \'modu isila\' grabatu bitartean</string>
+    <string name="pref_lockscreen_title">Blokeatutako pantailako kontrolak</string>
+    <string name="pref_lockscreen_summary">Erakutsi kontrolak pantaila blokeatuta dagoenean</string>
+    <string name="pref_theme_title">Aplikazioaren gaia</string>
+    <string name="pref_theme_summary">Ezarri aplikazioaren gaia (iluna/argia)</string>
+    <string name="pref_application">Aplikazioa</string>
+    <string name="pref_recordings">Grabaketak</string>
+    <string name="pref_fly_title">Kodetu momentuan</string>
+    <string name="pref_fly_summary">Momentuan kodetzea gaitzeak editatzea eta hutsegiteen konponketa desgaitzen ditu</string>
+    <string name="hold_by_bluetooth">pausatu (bluetooth deskonektatuta)</string>
+    <string name="menu_search">Bilatu</string>
+    <string name="save_as_wav">Gorde WAV bezala</string>
+    <string name="auto_close">Itxi automatikoki (%1$d)</string>
+    <string name="mic_muted_error">Mikrofonoa isilarazita</string>
+    <string name="mic_muted_pie">Android 9 (Pie) eta berriagoek atzeko planoan inaktibo daude aplikazioei mikrofonoa erabiltzea galarazten diete. Desgaitu SeLinux edo Androiden bertsio zaharrago batera aldatu!</string>
+    <string name="mic_paused">Androidek mikrofonoa pausatu du, grabaketaren iraupena gordetako datuena baino motzagoa da. Egiaztatu zure gailuak atzeko planoko grabaketak onartzen dituen edo hautatutako ezarpenek eskatzen duten bezain bizkorra den</string>
+    <string name="tile_start_recording">Hasi grabaketa</string>
+    <string name="tile_stop_recording">Gelditu grabaketa</string>
+    <string name="encoding_optimization">Atzeko planoko kodetzea Androiden bateria optimizatzeko ezarpenen ondorioz pausatu da. Eman baimena aplikazio honi atzeko planoan lan egiteko</string>
+    <string name="per_second">/s</string>
+</resources>

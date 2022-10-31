@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Gravador de áudio</string>
+
+    <string-array name="sample_rate_text">
+        <item>48 kHz</item>
+        <item>44.1 kHz (CD)</item>
+        <item>32 kHz</item>
+        <item>22 kHz</item>
+        <item>16 kHz (padrão)</item>
+        <item>11 kHz</item>
+        <item>8 kHz (tipo ligação)</item>
+    </string-array>
+
+    <string-array name="source_text">
+        <item>Mic</item>
+        <item>Não processado</item>
+        <item>Bluetooth</item>
+        <item>Internal Audio</item>
+    </string-array>
+
+    <string-array name="channels_text">
+        <item>Mono (padrão)</item>
+        <item>Estéreo</item>
+    </string-array>
+
+    <string name="no_folder_app">Não foi encontrado nenhum app para abrir os arquivos</string>
+    <string name="hold_by_call">pausado (ligação atendida)</string>
+    <string name="recording_status_recording">gravando</string>
+    <string name="recording_status_encoding">codificando</string>
+    <string name="recording_status_pause">pausado</string>
+    <string name="recording_status_edit">editando</string>
+    <string name="confirm_cancel">Quer cancelar</string>
+    <string name="encoding_title">Codificando...</string>
+    <string name="pause_title">Pausado...</string>
+    <string name="recording_title">Gravando</string>
+    <string name="open_recording_folder">Abrir pasta de gravações</string>
+    <string name="recording_list_is_empty">A lista de gravações está vazia\n\nToque no ícone do microfone para começar a gravar</string>
+    <string name="record_button">Gravar</string>
+    <string name="cut_button">Cortar</string>
+    <string name="stop_button">Parar</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="pause_button">Pausar</string>
+
+    <string name="pref_storage_title">Pasta de gravações</string>
+    <string name="pref_rate_title">Taxa de amostragem</string>
+    <string name="pref_encoding_title">Codificação</string>
+    <string name="pref_encoding_summary">Tipo de arquivo de áudio (.wav, .mp3, etc.)</string>
+    <string name="pref_mode_title">Canais de áudio</string>
+    <string name="pref_mode_summary">Canais de gravação</string>
+    <string name="pref_nameformat_title">Formato de nome de arquivo</string>
+    <string name="pref_pausecalls_title">Pausar durante a ligação</string>
+    <string name="pref_pausecalls_summary">e voltar a gravar quando a ligação for concluída</string>
+    <string name="pref_silence_title">Modo silencioso</string>
+    <string name="pref_silence_summary">Ativar o \'modo silencioso\' durante a gravação</string>
+    <string name="pref_lockscreen_title">Controle na tela de bloqueio</string>
+    <string name="pref_lockscreen_summary">Mostrar menu de controle quando a tela for bloqueada</string>
+    <string name="pref_theme_title">Tema do App</string>
+    <string name="pref_theme_summary">Definir o tema (claro ou escuro)</string>
+    <string name="pref_application">Aplicativo</string>
+    <string name="pref_recordings">Gravações</string>
+    <string name="pref_fly_title">Codificação em tempo real</string>
+    <string name="pref_fly_summary">Ao permitir codificação em tempo real você desabilitará a edição e recuperação após uma falha</string>
+    <string name="hold_by_bluetooth">pausado (bluetooth desconectado)</string>
+    <string name="menu_search">Pesquisar</string>
+    <string name="save_as_wav">Salvar como .wav</string>
+    <string name="auto_close">Fechar autom. em (%1$d)</string>
+    <string name="mic_muted_error">Mic silenciado</string>
+    <string name="mic_muted_pie">Android 9 (Pie) e mais recentes impedem que os apps usem o microfone em segundo plano. Solução: desabilite o SeLinux ou use uma versão mais antiga do Android</string>
+    <string name="mic_paused">O microfone foi pausado pelo Android, o tempo de gravação é menor do que o conteúdo gravado. Verifique se seu dispositivo suporta gravação em segundo plano ou se é o suficientemente rápido para usar as configurações selecionadas</string>
+    <string name="tile_start_recording">Iniciar uma gravação</string>
+    <string name="tile_stop_recording">Parar a gravação</string>
+    <string name="encoding_optimization">A codificação em segundo plano foi pausada pela configuração de otimização da bateria do Android, por favor permita que o App funcione em segundo plano</string>
+    <string name="per_second">/s</string>
+</resources>

@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Audio Recorder</string>
+
+    <string-array name="sample_rate_text">
+        <item>48 kHz</item>
+        <item>44.1 kHz (CD)</item>
+        <item>32 kHz</item>
+        <item>22 kHz</item>
+        <item>16 kHz (domyślnie)</item>
+        <item>11 kHz</item>
+        <item>8 kHz (telefon)</item>
+    </string-array>
+
+    <string-array name="source_text">
+        <item>Mikrofon</item>
+        <item>Nieprzetworzone</item>
+        <item>Bluetooth</item>
+        <item>Internal Audio</item>
+    </string-array>
+
+    <string-array name="channels_text">
+        <item>Mono (domyślnie)</item>
+        <item>Stereo</item>
+    </string-array>
+
+    <string name="no_folder_app">Brak zainstalowanej aplikacji do przeglądania folderów</string>
+    <string name="hold_by_call">pauza (wstrzymane przez połączenie)</string>
+    <string name="recording_status_recording">nagrywanie</string>
+    <string name="recording_status_encoding">kodowanie</string>
+    <string name="recording_status_pause">pauza</string>
+    <string name="recording_status_edit">edytuj</string>
+    <string name="confirm_cancel">Potwierdź anulowanie</string>
+    <string name="encoding_title">Kodowanie...</string>
+    <string name="pause_title">Pauza...</string>
+    <string name="recording_title">Nagrywanie</string>
+    <string name="open_recording_folder">Otwórz folder z nagraniami</string>
+    <string name="recording_list_is_empty">Lista nagrań jest pusta\n\nDotknij ikonki "mikrofonu", aby rozpocząć nagrywanie</string>
+    <string name="record_button">Nagrywaj</string>
+    <string name="cut_button">Wytnij</string>
+    <string name="stop_button">Zatrzymaj</string>
+    <string name="cancel_button">Anuluj</string>
+    <string name="pause_button">Pauza</string>
+
+    <string name="pref_storage_title">Folder nagrań</string>
+    <string name="pref_rate_title">Tempo Próbkowania</string>
+    <string name="pref_encoding_title">Kodowanie</string>
+    <string name="pref_encoding_summary">Wyjściowy format pliku (.wav, .m4a, ...)</string>
+    <string name="pref_mode_title">Kanały audio</string>
+    <string name="pref_mode_summary">Kanały nagrywania</string>
+    <string name="pref_nameformat_title">Format pliku</string>
+    <string name="pref_pausecalls_title">Wstrzymaj podczas połączeń</string>
+    <string name="pref_pausecalls_summary">Zatrzymaj nagrywanie po odebraniu i kontynuuj po rozłączeniu</string>
+    <string name="pref_silence_title">Tryb cichy</string>
+    <string name="pref_silence_summary">Załącz \'tryb cichy\' podczas nagrywania</string>
+    <string name="pref_lockscreen_title">Sterowanie z ekranu blokady</string>
+    <string name="pref_lockscreen_summary">Pokaż elementy sterujące, gdy telefon jest zablokowany</string>
+    <string name="pref_theme_title">Motyw Aplikacji</string>
+    <string name="pref_theme_summary">Ustaw motyw aplikacji (ciemny/jasny)</string>
+    <string name="pref_application">Aplikacja</string>
+    <string name="pref_recordings">Nagrania</string>
+    <string name="pref_fly_title">Kodowanie "w locie"</string>
+    <string name="pref_fly_summary">Włączając kodowanie "w locie", wyłącza edytowanie i odzyskiwanie po awarii</string>
+    <string name="hold_by_bluetooth">pauza (bluetooth rozłaczony)</string>
+    <string name="menu_search">Szukaj</string>
+    <string name="save_as_wav">Zapisz jako WAV</string>
+    <string name="auto_close">Zamknij automatycznie za (%1$d)</string>
+    <string name="mic_muted_error">Mikrofon wyciszony</string>
+    <string name="mic_muted_pie">Android 9 (Pie) i nowsze wersje uniemożliwiają bezczynnym aplikacjom działającym w tle korzystanie z mikrofonu. Prosimy o wyłączenie SeLinux lub aktualizację do wcześniejszej wersji Androida!</string>
+    <string name="mic_paused">Mikrofon został wstrzymany przez system Android, czas nagrywania jest krótszy niż zapisane dane, sprawdź czy urządzenie obsługuje nagrywanie w tle lub czy jest wystarczająco szybkie dla wybranych ustawień</string>
+    <string name="tile_start_recording">Rozpocznij nagrywanie</string>
+    <string name="tile_stop_recording">Zakończ nagrywanie</string>
+    <string name="encoding_optimization">Kodowanie w tle zostało wstrzymane przez system Android w celu oszczędzania energii, proszę pozwolić tej aplikacji pracować w tle (ustawienia systemu: optymalizacja baterii)</string>
+    <string name="per_second">/s</string>
+</resources>
